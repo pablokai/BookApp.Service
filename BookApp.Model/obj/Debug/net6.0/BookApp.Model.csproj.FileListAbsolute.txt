@@ -1,0 +1,12 @@
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\bin\Debug\net6.0\BookApp.Model.deps.json
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\bin\Debug\net6.0\BookApp.Model.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\bin\Debug\net6.0\BookApp.Model.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.csproj.AssemblyReference.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.AssemblyInfoInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.AssemblyInfo.cs
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.csproj.CoreCompileInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\refint\BookApp.Model.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\BookApp.Model.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.Model\obj\Debug\net6.0\ref\BookApp.Model.dll

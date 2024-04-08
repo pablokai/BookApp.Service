@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Service\\BookApp.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\BookApp.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\BookApp.BusinessLogic.csproj",
+        "projectName": "BookApp.BusinessLogic",
+        "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\BookApp.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\PABLO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\BookApp.DataAccess.csproj": {
+                "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\BookApp.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\BookApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\BookApp.DataAccess.csproj",
+        "projectName": "BookApp.DataAccess",
+        "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\BookApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PABLO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\BookApp.Model.csproj": {
+                "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\BookApp.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\BookApp.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\BookApp.Model.csproj",
+        "projectName": "BookApp.Model",
+        "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\BookApp.Model.csproj",
+        "packagesPath": "C:\\Users\\PABLO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Service\\BookApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Service\\BookApp.Service.csproj",
+        "projectName": "BookApp.Service",
+        "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Service\\BookApp.Service.csproj",
+        "packagesPath": "C:\\Users\\PABLO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\BookApp.BusinessLogic.csproj": {
+                "projectPath": "C:\\INGENIERIA REQUERIMIENTOS\\BookApp_API\\BookApp.Service\\BookApp.BusinessLogic\\BookApp.BusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

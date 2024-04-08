@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8BWyDzYTQaWSLh5DegESR9O3qEu8y82MD22G8+QTbTQ=",
+  "Source": "BookApp.Service",
+  "BasePath": "_content/BookApp.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

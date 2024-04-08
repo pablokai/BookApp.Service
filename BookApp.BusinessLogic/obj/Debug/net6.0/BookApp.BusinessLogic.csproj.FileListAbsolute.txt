@@ -1,0 +1,17 @@
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.BusinessLogic.deps.json
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.BusinessLogic.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.BusinessLogic.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.DataAccess.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.Model.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.DataAccess.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\bin\Debug\net6.0\BookApp.Model.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.csproj.AssemblyReference.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.AssemblyInfoInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.AssemblyInfo.cs
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.csproj.CopyComplete
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\refint\BookApp.BusinessLogic.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\BookApp.BusinessLogic.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.BusinessLogic\obj\Debug\net6.0\ref\BookApp.BusinessLogic.dll

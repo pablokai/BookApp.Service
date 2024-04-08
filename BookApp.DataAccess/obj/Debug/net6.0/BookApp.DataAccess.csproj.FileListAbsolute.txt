@@ -1,0 +1,15 @@
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\bin\Debug\net6.0\BookApp.DataAccess.deps.json
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\bin\Debug\net6.0\BookApp.DataAccess.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\bin\Debug\net6.0\BookApp.DataAccess.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\bin\Debug\net6.0\BookApp.Model.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\bin\Debug\net6.0\BookApp.Model.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.csproj.AssemblyReference.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.AssemblyInfoInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.AssemblyInfo.cs
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.csproj.CopyComplete
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\refint\BookApp.DataAccess.dll
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\BookApp.DataAccess.pdb
+C:\INGENIERIA REQUERIMIENTOS\BookApp_API\BookApp.Service\BookApp.DataAccess\obj\Debug\net6.0\ref\BookApp.DataAccess.dll
