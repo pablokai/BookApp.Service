@@ -233,5 +233,33 @@ namespace BookApp.DataAccess
             return respuesta;
 
         }
+
+        public async Task<List<Genero>> ObtenerGenero()
+        {
+            List<Genero> generos = new List<Genero>();
+            try
+            {
+                using var connection = _connectionManager.GetConnection();
+                var result = await connection.QueryAsync<Genero>
+                (
+                    sql: "usp_ListarGeneros",
+                    commandType: System.Data.CommandType.StoredProcedure
+                );
+
+                if (result != null)
+                {
+                    generos = result.ToList();
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return generos;
+
+        }
     }
 }

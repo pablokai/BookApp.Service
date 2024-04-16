@@ -100,5 +100,22 @@ namespace BookApp.Service.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("ObtenerGenero")]
+        public async Task<IActionResult> ObtenerGenero()
+        {
+            try
+            {
+                var respuesta = await libroBL.ObtenerGenero();
+
+                return StatusCode(200, respuesta);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
     }
 }

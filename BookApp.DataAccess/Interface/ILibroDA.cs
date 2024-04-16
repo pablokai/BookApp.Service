@@ -16,6 +16,8 @@ namespace BookApp.DataAccess.Interface
         Task<Respuesta<Libro>> ModificarLibro(Libro InputLibro);
         Task<Respuesta<Libro>> EliminarLibro(Libro InputLibro);
         Task<Respuesta<Libro>> ObtenerLibroPorId(Libro InputLibro);
+        Task<List<Genero>> ObtenerGenero();
+
 
     }
 }

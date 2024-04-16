@@ -38,6 +38,10 @@ namespace BookApp.BusinessLogic
         {
             return await libroDA.ObtenerLibroPorId(InputLibro);
         }
+        public async Task<List<Genero>> ObtenerGenero()
+        {
+            return await libroDA.ObtenerGenero();
+        }
     }
 }
     
