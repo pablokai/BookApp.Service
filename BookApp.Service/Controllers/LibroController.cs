@@ -37,7 +37,7 @@ namespace BookApp.Service.Controllers
 
         [HttpPost]
         [Route("InsertarLibro")]
-        public async Task<IActionResult> InsertarMetadata([FromBody] Libro libro)
+        public async Task<IActionResult> InsertarLibro([FromBody] Libro libro)
         {
             try
             {

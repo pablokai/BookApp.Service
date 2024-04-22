@@ -48,11 +48,17 @@ namespace BookApp.DataAccess
             {
                 var parameters = new DynamicParameters();
                 parameters.Add("@Titulo", InputLibro.Titulo, DbType.String);
-                parameters.Add("@Autor", InputLibro.Autor, DbType.String);
-                parameters.Add("@Edicion", InputLibro.Edicion, DbType.Int32);
+                parameters.Add("@NombreAutor", InputLibro.NombreAutor, DbType.String);
+                parameters.Add("@PrimerApellidoAutor", InputLibro.PrimerApellidoAutor, DbType.String);
+                parameters.Add("@SegundoApellidoAutor", InputLibro.SegundoApellidoAutor, DbType.String);
+                parameters.Add("@Editorial", InputLibro.Editorial, DbType.String);
                 parameters.Add("@IdGenero", InputLibro.IdGenero, DbType.Int32);
                 parameters.Add("@AnnioPublicacion", InputLibro.AnnioPublicacion, DbType.DateTime);
-                parameters.Add("@Portada", InputLibro.Portada, DbType.Byte);
+
+                //string Base64 = InputLibro.Portada.Replace("data:image/png;base64,", String.Empty);
+                //InputLibro.Portada = Base64;
+                parameters.Add("@Portada", InputLibro.Portada, DbType.String);
+                parameters.Add("@TotalPaginas", InputLibro.TotalPaginas, DbType.Int32);
                 //output variables
                 parameters.Add("@Estado", dbType: DbType.Int32, direction: ParameterDirection.Output);
                 parameters.Add("@Mensaje", dbType: DbType.String, direction: ParameterDirection.Output, size: 200);
@@ -69,15 +75,18 @@ namespace BookApp.DataAccess
                 {
                     respuesta = result.FirstOrDefault();
 
-                    if(respuesta.Estado == 0)
+                    if(respuesta.Estado == 1)
                     {
                         respuesta.Lista.Add(new Libro
                         {
-                            Autor = InputLibro.Autor,
+                            NombreAutor = InputLibro.NombreAutor,
+                            PrimerApellidoAutor = InputLibro.PrimerApellidoAutor,
+                            SegundoApellidoAutor = InputLibro.SegundoApellidoAutor,
                             Titulo = InputLibro.Titulo,
-                            Edicion = InputLibro.Edicion,
+                            Editorial = InputLibro.Editorial,
                             IdGenero= InputLibro.IdGenero,
                             AnnioPublicacion =InputLibro.AnnioPublicacion,
+                            TotalPaginas = InputLibro.TotalPaginas
 
                         });
                     }
@@ -102,11 +111,14 @@ namespace BookApp.DataAccess
                 var parameters = new DynamicParameters();
                 parameters.Add("@IdLibro", InputLibro.IdLibro, DbType.Int32);
                 parameters.Add("@Titulo", InputLibro.Titulo, DbType.String);
-                parameters.Add("@Autor", InputLibro.Autor, DbType.String);
-                parameters.Add("@Edicion", InputLibro.Edicion, DbType.Int32);
+                parameters.Add("@NombreAutor", InputLibro.NombreAutor, DbType.String);
+                parameters.Add("@PrimerApellidoAutor", InputLibro.PrimerApellidoAutor, DbType.String);
+                parameters.Add("@SegundoApellidoAutor", InputLibro.SegundoApellidoAutor, DbType.String);
+                parameters.Add("@Editorial", InputLibro.Editorial, DbType.String);
                 parameters.Add("@IdGenero", InputLibro.IdGenero, DbType.Int32);
                 parameters.Add("@AnnioPublicacion", InputLibro.AnnioPublicacion, DbType.DateTime);
-                parameters.Add("@Portada", InputLibro.Portada, DbType.Byte);
+                parameters.Add("@Portada", InputLibro.Portada, DbType.String);
+                parameters.Add("@TotalPaginas", InputLibro.TotalPaginas, DbType.Int32);
                 //output variables
                 parameters.Add("@Estado", dbType: DbType.Int32, direction: ParameterDirection.Output);
                 parameters.Add("@Mensaje", dbType: DbType.String, direction: ParameterDirection.Output, size: 200);
@@ -123,15 +135,18 @@ namespace BookApp.DataAccess
                 {
                     respuesta = result.FirstOrDefault();
 
-                    if (respuesta.Estado == 0)
+                    if (respuesta.Estado == 1)
                     {
                         respuesta.Lista.Add(new Libro
                         {
-                            Autor = InputLibro.Autor,
+                            NombreAutor = InputLibro.NombreAutor,
+                            PrimerApellidoAutor = InputLibro.PrimerApellidoAutor,
+                            SegundoApellidoAutor = InputLibro.SegundoApellidoAutor,
                             Titulo = InputLibro.Titulo,
-                            Edicion = InputLibro.Edicion,
+                            Editorial = InputLibro.Editorial,
                             IdGenero = InputLibro.IdGenero,
                             AnnioPublicacion = InputLibro.AnnioPublicacion,
+                            TotalPaginas = InputLibro.TotalPaginas
 
                         });
                     }
@@ -172,15 +187,18 @@ namespace BookApp.DataAccess
                 {
                     respuesta = result.FirstOrDefault();
 
-                    if (respuesta.Estado == 0)
+                    if (respuesta.Estado == 1)
                     {
                         respuesta.Lista.Add(new Libro
                         {
-                            Autor = InputLibro.Autor,
+                            NombreAutor = InputLibro.NombreAutor,
+                            PrimerApellidoAutor = InputLibro.PrimerApellidoAutor,
+                            SegundoApellidoAutor = InputLibro.SegundoApellidoAutor,
                             Titulo = InputLibro.Titulo,
-                            Edicion = InputLibro.Edicion,
+                            Editorial = InputLibro.Editorial,
                             IdGenero = InputLibro.IdGenero,
                             AnnioPublicacion = InputLibro.AnnioPublicacion,
+                            TotalPaginas = InputLibro.TotalPaginas
 
                         });
                     }
